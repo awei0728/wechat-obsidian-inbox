@@ -1,0 +1,57 @@
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+config.toml
+openclaw.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build / package artifacts
+dist/
+build/
+*.egg-info/
+*.zip
+
+# Local debug / scratch
+debug_wechat/
+tmp/
+tmp_skill_unpack_test/
+test_output/
+output/
+
+# Obsidian real data should never be committed
+_wechat_articles_index.jsonl
+assets/
+推文图片/
+微信收藏/
+.wechat-trash/
+.wechat-inbox-state/
+
+# IDE
+.idea/
+.vscode/
+
+# Local verification records
+*.local.md
+references/*local*.md
